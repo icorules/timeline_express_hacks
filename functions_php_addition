@@ -1,0 +1,14 @@
+
+/* Add into functions.php */
+
+function custom_announcement_date_string( $string ) {
+
+	return _x( 'Timeline Date %s', 'The announcement date.', 'timeline-express' );
+
+}
+add_filter( 'timeline_express_announcement_date_text', 'custom_announcement_date_string' );
+function custom_te_date_format( $date_format ) {
+    $date_format = "Y"; // will print the date as 2014
+    return $date_format;
+}
+add_filter( 'timeline_express_custom_date_format' , 'custom_te_date_format' , 10 );
