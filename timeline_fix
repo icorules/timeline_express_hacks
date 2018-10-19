@@ -1,0 +1,26 @@
+.timeline-express-single-page-announcement-date {
+  display: "Y";
+}
+
+h2.cd-timeline-item-title {
+  font-size: 22px;
+}
+
+.cd-timeline-content {
+  color:black !important;
+}
+
+.cd-timeline-content .timeline-date {
+   font-weight: bold;
+}
+.cd-timeline-content .timeline-date {
+   font-size: 20px !important;
+}
+
+.cd-timeline-content .timeline-date {
+   font-weight: bold;
+}
+.cd-timeline-content .timeline-date {
+   font-size: 20px !important;
+}
+
